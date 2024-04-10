@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E31B06992BC69A3100D2D348 /* broskyappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31B06982BC69A3100D2D348 /* broskyappApp.swift */; };
+		E31B069B2BC69A3100D2D348 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31B069A2BC69A3100D2D348 /* ContentView.swift */; };
+		E31B069D2BC69A3200D2D348 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E31B069C2BC69A3200D2D348 /* Assets.xcassets */; };
+		E31B06A02BC69A3200D2D348 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E31B069F2BC69A3200D2D348 /* Preview Assets.xcassets */; };
+		E31B06AA2BC69A3300D2D348 /* broskyappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31B06A92BC69A3300D2D348 /* broskyappTests.swift */; };
+		E31B06B42BC69A3300D2D348 /* broskyappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31B06B32BC69A3300D2D348 /* broskyappUITests.swift */; };
+		E31B06B62BC69A3300D2D348 /* broskyappUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31B06B52BC69A3300D2D348 /* broskyappUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E31B06A62BC69A3300D2D348 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E31B068D2BC69A3100D2D348 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E31B06942BC69A3100D2D348;
+			remoteInfo = broskyapp;
+		};
+		E31B06B02BC69A3300D2D348 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E31B068D2BC69A3100D2D348 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E31B06942BC69A3100D2D348;
+			remoteInfo = broskyapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E31B06952BC69A3100D2D348 /* broskyapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = broskyapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E31B06982BC69A3100D2D348 /* broskyappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = broskyappApp.swift; sourceTree = "<group>"; };
+		E31B069A2BC69A3100D2D348 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E31B069C2BC69A3200D2D348 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E31B069F2BC69A3200D2D348 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E31B06A52BC69A3300D2D348 /* broskyappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = broskyappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E31B06A92BC69A3300D2D348 /* broskyappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = broskyappTests.swift; sourceTree = "<group>"; };
+		E31B06AF2BC69A3300D2D348 /* broskyappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = broskyappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E31B06B32BC69A3300D2D348 /* broskyappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = broskyappUITests.swift; sourceTree = "<group>"; };
+		E31B06B52BC69A3300D2D348 /* broskyappUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = broskyappUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E31B06922BC69A3100D2D348 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E31B06A22BC69A3300D2D348 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E31B06AC2BC69A3300D2D348 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E31B068C2BC69A3100D2D348 = {
+			isa = PBXGroup;
+			children = (
+				E31B06972BC69A3100D2D348 /* broskyapp */,
+				E31B06A82BC69A3300D2D348 /* broskyappTests */,
+				E31B06B22BC69A3300D2D348 /* broskyappUITests */,
+				E31B06962BC69A3100D2D348 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E31B06962BC69A3100D2D348 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E31B06952BC69A3100D2D348 /* broskyapp.app */,
+				E31B06A52BC69A3300D2D348 /* broskyappTests.xctest */,
+				E31B06AF2BC69A3300D2D348 /* broskyappUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E31B06972BC69A3100D2D348 /* broskyapp */ = {
+			isa = PBXGroup;
+			children = (
+				E31B06982BC69A3100D2D348 /* broskyappApp.swift */,
+				E31B069A2BC69A3100D2D348 /* ContentView.swift */,
+				E31B069C2BC69A3200D2D348 /* Assets.xcassets */,
+				E31B069E2BC69A3200D2D348 /* Preview Content */,
+			);
+			path = broskyapp;
+			sourceTree = "<group>";
+		};
+		E31B069E2BC69A3200D2D348 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E31B069F2BC69A3200D2D348 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E31B06A82BC69A3300D2D348 /* broskyappTests */ = {
+			isa = PBXGroup;
+			children = (
+				E31B06A92BC69A3300D2D348 /* broskyappTests.swift */,
+			);
+			path = broskyappTests;
+			sourceTree = "<group>";
+		};
+		E31B06B22BC69A3300D2D348 /* broskyappUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E31B06B32BC69A3300D2D348 /* broskyappUITests.swift */,
+				E31B06B52BC69A3300D2D348 /* broskyappUITestsLaunchTests.swift */,
+			);
+			path = broskyappUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E31B06942BC69A3100D2D348 /* broskyapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E31B06B92BC69A3300D2D348 /* Build configuration list for PBXNativeTarget "broskyapp" */;
+			buildPhases = (
+				E31B06912BC69A3100D2D348 /* Sources */,
+				E31B06922BC69A3100D2D348 /* Frameworks */,
+				E31B06932BC69A3100D2D348 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = broskyapp;
+			productName = broskyapp;
+			productReference = E31B06952BC69A3100D2D348 /* broskyapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E31B06A42BC69A3300D2D348 /* broskyappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E31B06BC2BC69A3300D2D348 /* Build configuration list for PBXNativeTarget "broskyappTests" */;
+			buildPhases = (
+				E31B06A12BC69A3300D2D348 /* Sources */,
+				E31B06A22BC69A3300D2D348 /* Frameworks */,
+				E31B06A32BC69A3300D2D348 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E31B06A72BC69A3300D2D348 /* PBXTargetDependency */,
+			);
+			name = broskyappTests;
+			productName = broskyappTests;
+			productReference = E31B06A52BC69A3300D2D348 /* broskyappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E31B06AE2BC69A3300D2D348 /* broskyappUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E31B06BF2BC69A3300D2D348 /* Build configuration list for PBXNativeTarget "broskyappUITests" */;
+			buildPhases = (
+				E31B06AB2BC69A3300D2D348 /* Sources */,
+				E31B06AC2BC69A3300D2D348 /* Frameworks */,
+				E31B06AD2BC69A3300D2D348 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E31B06B12BC69A3300D2D348 /* PBXTargetDependency */,
+			);
+			name = broskyappUITests;
+			productName = broskyappUITests;
+			productReference = E31B06AF2BC69A3300D2D348 /* broskyappUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E31B068D2BC69A3100D2D348 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					E31B06942BC69A3100D2D348 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					E31B06A42BC69A3300D2D348 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = E31B06942BC69A3100D2D348;
+					};
+					E31B06AE2BC69A3300D2D348 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = E31B06942BC69A3100D2D348;
+					};
+				};
+			};
+			buildConfigurationList = E31B06902BC69A3100D2D348 /* Build configuration list for PBXProject "broskyapp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E31B068C2BC69A3100D2D348;
+			productRefGroup = E31B06962BC69A3100D2D348 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E31B06942BC69A3100D2D348 /* broskyapp */,
+				E31B06A42BC69A3300D2D348 /* broskyappTests */,
+				E31B06AE2BC69A3300D2D348 /* broskyappUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E31B06932BC69A3100D2D348 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E31B06A02BC69A3200D2D348 /* Preview Assets.xcassets in Resources */,
+				E31B069D2BC69A3200D2D348 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E31B06A32BC69A3300D2D348 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E31B06AD2BC69A3300D2D348 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E31B06912BC69A3100D2D348 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E31B069B2BC69A3100D2D348 /* ContentView.swift in Sources */,
+				E31B06992BC69A3100D2D348 /* broskyappApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E31B06A12BC69A3300D2D348 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E31B06AA2BC69A3300D2D348 /* broskyappTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E31B06AB2BC69A3300D2D348 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E31B06B62BC69A3300D2D348 /* broskyappUITestsLaunchTests.swift in Sources */,
+				E31B06B42BC69A3300D2D348 /* broskyappUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E31B06A72BC69A3300D2D348 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E31B06942BC69A3100D2D348 /* broskyapp */;
+			targetProxy = E31B06A62BC69A3300D2D348 /* PBXContainerItemProxy */;
+		};
+		E31B06B12BC69A3300D2D348 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E31B06942BC69A3100D2D348 /* broskyapp */;
+			targetProxy = E31B06B02BC69A3300D2D348 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E31B06B72BC69A3300D2D348 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E31B06B82BC69A3300D2D348 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E31B06BA2BC69A3300D2D348 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"broskyapp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.broskyapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E31B06BB2BC69A3300D2D348 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"broskyapp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.broskyapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E31B06BD2BC69A3300D2D348 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.broskyappTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/broskyapp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/broskyapp";
+			};
+			name = Debug;
+		};
+		E31B06BE2BC69A3300D2D348 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.broskyappTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/broskyapp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/broskyapp";
+			};
+			name = Release;
+		};
+		E31B06C02BC69A3300D2D348 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.broskyappUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = broskyapp;
+			};
+			name = Debug;
+		};
+		E31B06C12BC69A3300D2D348 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.broskyappUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = broskyapp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E31B06902BC69A3100D2D348 /* Build configuration list for PBXProject "broskyapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E31B06B72BC69A3300D2D348 /* Debug */,
+				E31B06B82BC69A3300D2D348 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E31B06B92BC69A3300D2D348 /* Build configuration list for PBXNativeTarget "broskyapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E31B06BA2BC69A3300D2D348 /* Debug */,
+				E31B06BB2BC69A3300D2D348 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E31B06BC2BC69A3300D2D348 /* Build configuration list for PBXNativeTarget "broskyappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E31B06BD2BC69A3300D2D348 /* Debug */,
+				E31B06BE2BC69A3300D2D348 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E31B06BF2BC69A3300D2D348 /* Build configuration list for PBXNativeTarget "broskyappUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E31B06C02BC69A3300D2D348 /* Debug */,
+				E31B06C12BC69A3300D2D348 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E31B068D2BC69A3100D2D348 /* Project object */;
+}
